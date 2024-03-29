@@ -9,7 +9,7 @@ export default function Home() {
       <div class="scrollbar flex h-[78vh] w-screen overflow-auto justify-center">
         <Chatbody />
       </div>
-      <div class="mx-4 flex items-center justify-center space-x-2 md:space-x-10 py-3">
+      <div class="mx-4 flex md:mx-auto md:max-w-4xl items-center justify-center space-x-2 md:space-x-10 py-3">
         <input type="text" placeholder="Ask me anything about me..." class="w-full rounded border bg-gray-100 px-3 py-3 text-sm outline-none text-slate-600" />
         <button class="flex scale-90 rounded bg-blue-600 px-3 py-2 text-white shadow hover:bg-blue-700 focus:ring-2">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
